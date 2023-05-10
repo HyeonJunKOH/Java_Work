@@ -37,8 +37,9 @@ public class MyFrame extends JFrame implements ActionListener {
 		updateBtn.addActionListener(this);
 		
 		//각각의 버튼에 action 명령을 설정할 수 있다.
-		
-		
+		sendBtn.setActionCommand("send");
+		deleteBtn.setActionCommand("delete");
+		updateBtn.setActionCommand("update");
 		
 		// 프레임을 화면상에 실제 보이게 하기(false하면 화면에 보이지 않는다.)
 		this.setVisible(true);
