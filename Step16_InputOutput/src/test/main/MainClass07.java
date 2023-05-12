@@ -2,9 +2,12 @@ package test.main;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class MainClass07 {
 	public static void main(String[] args) {
+		
 		//파일에 저장할 sample 문자열
 		String msg="안녕하세요";
 		
@@ -27,5 +30,5 @@ public class MainClass07 {
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
-	}
+	}	
 }
