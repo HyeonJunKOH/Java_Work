@@ -46,7 +46,7 @@ public class MainClass01 {
          rs=pstmt.executeQuery();
          while(rs.next()) {
             int num = rs.getInt("num");
-            String name = rs.getNString("name");
+            String name = rs.getString("name");
             String addr = rs.getString("addr");
             //콘솔창에 출력해보기
             System.out.println(num+" | "+name+" | "+addr);
