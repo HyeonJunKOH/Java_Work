@@ -1,4 +1,4 @@
-package test.dao;
+package test.dto;
 
 public class DeptDto {
 	//필드의 접근 지정자를 private로

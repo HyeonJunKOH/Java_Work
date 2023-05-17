@@ -1,8 +1,8 @@
 package test.main;
 
-import test.dto.DeptDao;
+import test.dao.DeptDao;
 
-public class DeptClass20 {
+public class DeptClass03 {
 	public static void main(String[] args) {
 		//삭제할 부서의 정보
 		int deptno=50;

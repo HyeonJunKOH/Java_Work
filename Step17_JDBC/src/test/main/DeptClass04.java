@@ -3,10 +3,12 @@ package test.main;
 
 import java.util.Scanner;
 
-import test.dao.DeptDto;
-import test.dto.DeptDao;
+import test.dao.DeptDao;
+import test.dto.DeptDto;
 
-public class DeptClass21 {
+
+
+public class DeptClass04 {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
 		System.out.println("검색할 부서번호 입력");

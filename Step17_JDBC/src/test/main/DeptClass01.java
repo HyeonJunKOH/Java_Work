@@ -1,9 +1,9 @@
 package test.main;
 
-import test.dao.DeptDto;
-import test.dto.DeptDao;
+import test.dao.DeptDao;
+import test.dto.DeptDto;
 
-public class DeptClass18 {
+public class DeptClass01 {
 	public static void main(String[] args) {
 		//새로 추가할 부서정보
 		int deptno=50;
